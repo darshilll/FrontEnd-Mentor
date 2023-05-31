@@ -1,0 +1,178 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family:'Inter';
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed;
+    width: 100%;
+    z-index: 100; */
+    padding: 1em 3em;
+}
+
+.big{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 1%;
+    /* font-style:oblique; */
+    margin-left: 10%;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: gray;
+    margin-right: 18%;
+    font-size: small;
+}
+
+.navigation>*:hover{
+    color: hsl(4, 39%, 60%);
+    cursor: pointer;
+}
+
+
+
+img{
+    width: 75%;
+    margin-left: 20%;
+}
+.section2{
+    display: flex;
+    margin-left: 4%;
+    /* justify-content; */
+}
+.bright{
+    font-size: 40px;
+    font-weight:900;
+    margin:2% 0 0 2%;
+    width: 25%;
+    margin-left: 17%;
+    
+}
+
+.paragraph{
+    margin: 2% 0 0 15%;
+    font-size: small;
+    width: 30%;
+    color: gray;
+}
+
+button{
+    width: 58%;
+    height: 2.5rem;
+    border: none;
+    background-color: hsl(4, 85%, 63%);
+    color: white;
+    font-weight: bold;
+    margin-top:15%;
+    
+}
+
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.section3{
+    display: flex;
+    
+}
+
+.section4{
+    margin-right: 20%;
+}
+
+.design{
+    background-color: hsl(240, 100%, 5%);
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 1.5em;
+    cursor: pointer;
+    /* margin: 50%; */
+}
+
+.new{
+    color: hsl(38, 77%, 62%);
+    font-weight: bold;
+    font-size: 35px;
+    /* padding: .5em; */
+}
+
+.hydrogen{
+    font-weight: bold;
+    /* padding: .5em; */
+}
+
+.hydrogen:hover{
+    color: hsl(38, 77%, 62%);
+}
+
+.hydrogen2{
+    font-size: small;
+    color: gray;
+    
+}
+.line{
+    /* border-bottom: 1px solid rgb(80, 80, 78); */
+    /* width: 100%; */
+    font-weight: 1;
+}
+
+.parent1{
+    display: flex;
+    
+}
+.parent2{
+    display: flex;
+}
+.img1{
+    width: 25%;
+    margin: 2% 0 0 30%;
+}
+
+.parentChild{
+    margin:2% 0 0 1%;
+}
+.number01{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(199, 198, 204);
+}
+.retro{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.retro:hover{
+    color: hsl(4, 85%, 63%);
+}
+
+.retrop{
+    color: rgb(160, 161, 166);
+    margin-top: 2%;
+    font-size: 13px;
+    width: 65%;
+}
+
+.img2{
+    width: 23%;
+    margin: 1.5% 0 0 3%;
+}
+
